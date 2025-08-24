@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+.App {
+    background-color: #222222;
+    color: #faf4e6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.contato-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.esquerda {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: "Be Vietnam Pro";
+    gap: 20px;
+    padding: 16px 8px 16px 8px;
+    margin-left: 200px;
+}
+.esquerda h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.texto p {
+    font-weight: 400;
+    margin: 6px 0;
+    font-size: 20px;
+}
+
+.icones-texto {
+    width: 20px;
+    height: auto;
+    margin-right: 0.5rem;
+    filter: brightness(0) invert(1);
+}
+
+.email-link {
+    color: #faf4e6;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    color: #ffc94c;
+}
+
+.socials {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.2rem;
+}
+
+.logo-socials {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    filter: brightness(0) invert(1);
+}
+
+.logo-socials:hover {
+    transform: scale(1.1);
+}
+
+.direita {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    background-color: #2e2e2e;
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: 'Be Vietnam Pro';
+    margin-right: 100px;
+}
+
+.formulario label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.input {
+   padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+}
+
+
+.formulario .input:focus {
+    outline: 2px solid #ffffff;
+}
+
+
+.textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.formulario button {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color:#1d1d1d;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.formulario button:hover {
+    background-color:white;
+    color: black;
+}
+

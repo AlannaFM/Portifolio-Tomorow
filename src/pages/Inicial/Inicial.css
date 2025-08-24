@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    background-color: #222222;
+    color: #FAF4E6;
+}
+
+
+.section1 {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    text-align: justify;
+    gap: 24px;
+
+}
+
+
+
+.texto{
+    font-family: "EB Garamond";
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.texto h1{
+    padding-left: 80px;
+}
+
+.descricao {
+    /*font-family: "Be Vietnam";*/
+    padding: 0 80px;
+    font-weight: 400;
+    width: 100%;
+    
+}
+
+.descricao #linha-superior{
+    color: white;
+    width: 30%;
+    margin-left: 0;
+    margin-bottom: 24px;
+} 
+
+.descricao #linha-inferior{
+    color: white;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 24px;
+    margin-top: 20px;
+} 
+.descricao p{
+    padding-bottom: 50px;
+}
+
+.descricao button{
+    font-family: "EB Vietnam";
+    font-weight: 900;
+    font-size: 20px;
+    background-color: #3C3B3A;
+    color:  #FAF4E6 ;
+    height: 50px;
+    padding: 15px;
+    width: auto;
+    border-radius: 15px;
+    border-style: none;
+    margin-bottom: 20px;
+
+}
+
+.descricao button:hover{
+    background-color: #ffffff;
+    color: #222222;
+    transition: 0.4s;
+
+}
+
+.section2 {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: justify;
+    gap: 24px;
+
+}
+
+.texto-section2 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    gap: 24px;
+    padding-left: 50px;
+}
+
+.img-elemento {
+    width: 700px; 
+    height: auto;
+    object-fit: contain; 
+    border-radius: 8px;
+}
+
+.texto-section2 h3{
+    font-size: 35px;
+}
+
+.texto-section2 p{
+    font-size: 18px;
+}
+
+.elementos {
+    display: flex;
+    gap: 30px;
+    padding: 50px;
+}
+
+.esquerda h3 {
+    padding-bottom: 20px;
+    font-size: 25px;
+    
+}
+
+.esquerda p {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.esquerda button{
+    font-family: "EB Vietnam";
+    font-weight: 900;
+    font-size: 18px;
+    background-color: #3C3B3A;
+    color:  #FAF4E6 ;
+    height: 50px; 
+    width: 150px;
+    border-radius: 20px;
+    border-color: #FAF4E6;
+    border-style:groove;
+    margin-top: 20px;
+    
+}
+
+.esquerda button:hover{
+    background-color: #ffffff;
+    color: #222222;
+    transition: 0.4s;
+
+}
