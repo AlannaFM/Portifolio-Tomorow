@@ -9,9 +9,9 @@
 
 .App {
     /*background-color: #222222;*/
-    background: linear-gradient(217deg, rgba(255,0,0,.7), rgba(255,0,0,0) 70%),
-              linear-gradient(127deg, rgba(55,200,200,.8), rgba(55,200,200,0) 70%),
-              linear-gradient(336deg, rgba(0,0,255,.9), rgba(0,0,255,0) 70%);
+    background: linear-gradient(217deg, rgba(255, 0, 0, .7), rgba(255, 0, 0, 0) 70%),
+        linear-gradient(127deg, rgba(55, 200, 200, .8), rgba(55, 200, 200, 0) 70%),
+        linear-gradient(336deg, rgba(0, 0, 255, .9), rgba(0, 0, 255, 0) 70%);
     /*background: linear-gradient(217deg, rgba(255, 223, 128, 0.445), rgba(255,223,128,0) 70%),
             linear-gradient(127deg, rgba(255,182,193,0.6), rgba(255,182,193,0) 70%),
             linear-gradient(336deg, rgba(0,0,0,0.8), rgba(0,0,0,0) 70%),
@@ -138,9 +138,15 @@
     padding: 50px;
 }
 
-
+.esquerda {
+    background-color: rgba(255, 255, 255, 0.103);
+    border-radius: 15px;
+    padding: 30px !important;
+    box-sizing: border-box;
+}
 
 .esquerda h3 {
+    margin-top: 0;
     padding-bottom: 20px;
     font-size: 26px;
     font-family: "EB Garamond";
@@ -150,6 +156,7 @@
 .esquerda p {
     font-size: 18px;
     padding-bottom: 20px;
+    margin: 0
 }
 
 .esquerda button {
