@@ -7,9 +7,16 @@
     box-sizing: border-box;
 }
 
-.App{
-    background-color: #222222;
-    color: #FAF4E6;
+.App {
+    /*background-color: #222222;*/
+    background: linear-gradient(217deg, rgba(255,0,0,.7), rgba(255,0,0,0) 70%),
+              linear-gradient(127deg, rgba(55,200,200,.8), rgba(55,200,200,0) 70%),
+              linear-gradient(336deg, rgba(0,0,255,.9), rgba(0,0,255,0) 70%);
+    /*background: linear-gradient(217deg, rgba(255, 223, 128, 0.445), rgba(255,223,128,0) 70%),
+            linear-gradient(127deg, rgba(255,182,193,0.6), rgba(255,182,193,0) 70%),
+            linear-gradient(336deg, rgba(0,0,0,0.8), rgba(0,0,0,0) 70%),
+            linear-gradient(45deg, rgba(255,255,255,0.4), rgba(255,255,255,0) 70%);*/
+    color: white;
 }
 
 
@@ -22,18 +29,19 @@
     width: 100%;
     text-align: justify;
     gap: 24px;
+    color: white;
 
 }
 
 
 
-.texto{
+.texto {
     font-family: "EB Garamond";
     font-weight: 700;
     font-size: 30px;
 }
 
-.texto h1{
+.texto h1 {
     padding-left: 80px;
 }
 
@@ -42,33 +50,36 @@
     padding: 0 80px;
     font-weight: 400;
     width: 100%;
-    
+
 }
 
-.descricao #linha-superior{
+.descricao #linha-superior {
     color: white;
     width: 30%;
     margin-left: 0;
     margin-bottom: 24px;
-} 
+}
 
-.descricao #linha-inferior{
+.descricao #linha-inferior {
     color: white;
     width: 100%;
     margin-left: 0;
     margin-bottom: 24px;
     margin-top: 20px;
-} 
-.descricao p{
-    padding-bottom: 50px;
 }
 
-.descricao button{
+.descricao p {
+    padding-bottom: 30px;
+    font-weight: 500;
+}
+
+.descricao button {
     font-family: "EB Vietnam";
     font-weight: 900;
     font-size: 20px;
-    background-color: #3C3B3A;
-    color:  #FAF4E6 ;
+    /*background-color: #3C3B3A;*/
+    background-color: black;
+    color: #FAF4E6;
     height: 50px;
     padding: 15px;
     width: auto;
@@ -78,7 +89,7 @@
 
 }
 
-.descricao button:hover{
+.descricao button:hover {
     background-color: #ffffff;
     color: #222222;
     transition: 0.4s;
@@ -105,18 +116,20 @@
 }
 
 .img-elemento {
-    width: 700px; 
+    width: 700px;
     height: auto;
-    object-fit: contain; 
+    object-fit: contain;
     border-radius: 8px;
 }
 
-.texto-section2 h3{
-    font-size: 35px;
+.texto-section2 h3 {
+    font-size: 40px;
+    font-family: "EB Garamond";
 }
 
-.texto-section2 p{
+.texto-section2 p {
     font-size: 18px;
+    font-weight: 500;
 }
 
 .elementos {
@@ -125,10 +138,13 @@
     padding: 50px;
 }
 
+
+
 .esquerda h3 {
     padding-bottom: 20px;
-    font-size: 25px;
-    
+    font-size: 26px;
+    font-family: "EB Garamond";
+
 }
 
 .esquerda p {
@@ -136,22 +152,23 @@
     padding-bottom: 20px;
 }
 
-.esquerda button{
+.esquerda button {
     font-family: "EB Vietnam";
     font-weight: 900;
     font-size: 18px;
-    background-color: #3C3B3A;
-    color:  #FAF4E6 ;
-    height: 50px; 
+    /*background-color: #3C3B3A;*/
+    background-color: black;
+    color: #FAF4E6;
+    height: 50px;
     width: 150px;
     border-radius: 20px;
-    border-color: #FAF4E6;
-    border-style:groove;
+    border-color: #faf4e65e;
+    border-style: groove;
     margin-top: 20px;
-    
+
 }
 
-.esquerda button:hover{
+.esquerda button:hover {
     background-color: #ffffff;
     color: #222222;
     transition: 0.4s;
